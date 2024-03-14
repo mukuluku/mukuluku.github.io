@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layouttype>Go Away Nosey</layoutype>
+<!----   DO NOT EDIT ABOVE THIS LINE!!!  BASIC OBFUSCATION METHODS!!!-->
+
+<xml>
+    
+  <dir>
+    <title>Movies</title>
+    <link>file://movies.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+  <dir>
+    <title>TV Show</title>
+    <link></link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+  <dir>
+    <title>Settings</title>
+    <link>file://set.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+</xml>
