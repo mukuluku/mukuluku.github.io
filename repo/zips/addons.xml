@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.i" name="I" version="1.0" provider-name="I">
+<addons><addon id="plugin.video.i" name="i" version="1.0" provider-name="Ian_mukuluku">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -14,8 +14,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">I Mukuluku</summary>
-	<description lang="en">I Mukuluku Addon</description>
+    <summary lang="en_GB">I</summary>
+	<description lang="en">I Addon</description>
     <disclaimer lang="en">Mukuluku sukuti e ka babi pantagji</disclaimer>
     <platform>all</platform>
     <language>en</language>
@@ -25,7 +25,9 @@
 		<fanart>fanart.jpg</fanart>
   </assets>
   </extension>
-</addon><addon id="repository.mukuluku" name="mukuluku" version="1.0" provider-name="Ian_mukuluku">
+</addon>
+
+<addon id="repository.mukuluku" name="mukuluku" version="1.0" provider-name="Ian_mukuluku">
     <extension point="xbmc.addon.repository" name="Mukuluku Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/mukuluku/mukuluku.github.io/master/repo/zips/addons.xml</info>
@@ -34,7 +36,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>MUKULUKU Repository</summary>
+        <summary>MUKULUKU Rep</summary>
         <description>Ian Mukuluku's Repository</description>
         <disclaimer />
         <platform>all</platform>
