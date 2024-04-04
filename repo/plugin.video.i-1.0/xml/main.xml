@@ -13,17 +13,53 @@
   </dir>
   
   <dir>
-    <title>TV Show</title>
-    <link></link>
+    <title>Series</title>
+    <link>file://series.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+   <dir>
+    <title>Documentaries</title>
+    <link>file://docus.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+  <dir>
+    <title>People</title>
+    <link>file://people.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+  <dir>
+    <title>Lists</title>
+    <link>file://lists.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+  <dir>
+    <title>TMDB</title>
+    <link>file://tmdb.json</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+  
+  <dir>
+    <title>TRAKT</title>
+    <link>file://trakt.json</link>
 	<thumbnail></thumbnail>
 	<fanart></fanart>    
   </dir>
   
   <dir>
     <title>Settings</title>
-    <link>file://set.xml</link>
+    <link>file://settings.json</link>
 	<thumbnail></thumbnail>
 	<fanart></fanart>    
   </dir>
   
+ 
 </xml>

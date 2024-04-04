@@ -5,12 +5,48 @@
 
 <xml>
 
+	<dir>
+		<title>Search Movie</title>
+		<link>tmdb/search/movie</link>
+	</dir>
+	
+
 <item>
 	<title>Days of Glory</title>
-	<link>https://ok.ru/video/1872668920447</link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
+		<meta>
+		<content>movie</content>
+		<imdb>tt0036748</imdb>
+		<title>Days of Glory</title>
+		<year>1944</year>
+	</meta>
+	<link>
+	<sublink>https://ok.ru/video/1872668920447(ok)</sublink>
+	<sublink>https://www.youtube.com/watch?v=1_M0EIFIw0k(Youtube)</sublink>
+	<sublink>search</sublink>
+	<sublink>searchsd</sublink></link>
+	<thumbnail>https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b0iRM1CGk3VerLf1oO9uOn2sea1.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/3Kr3TVGvF4NrC4jYPtns2oYy8L2.jpg</fanart>
 </item>
+
+  <dir>
+    <title>Years</title>
+    <link>file://Movies/years.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+
+  <item>
+    <title>[COLOR khaki]Clear Cache[/COLOR]</title>
+    <link>clear_cache</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </item>
+
+
+
+
+
 
 
 

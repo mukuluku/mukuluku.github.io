@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layouttype>Go Away Nosey</layoutype>
+<!----   DO NOT EDIT ABOVE THIS LINE!!!  BASIC OBFUSCATION METHODS!!!-->
+
+<xml>
+
+<dir>
+	<meta>
+		<year>1996</year>
+		<imdb>tt0115193</imdb>
+	</meta>
+        <name>THE GREAT WAR And The Shaping Of The 20th Century</name>
+        <link>http://www.ezzer-mac.com/Addon/text/miniseries/tgwmini/tgwminilist.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://www.themoviedb.org/t/p/w1280/2Y1vuJWS7n8OdHDAlI8cS51chNg.jpg</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+	<summary>A unique first-person narrative, sewn together from genuine testimonies of frontline soldiers.</summary>
+</dir>
+
+<dir>
+	<meta>
+		<year>1964</year>
+		<imdb>tt0057753</imdb>
+	</meta>
+        <name>THE GREAT WAR</name>
+        <link>http://www.ezzer-mac.com/Addon/text/randomrequest/tgw/tgwlist.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://www.themoviedb.org/t/p/w1280/3Nr5unuYg0amkXeRYgX0YoL0oHa.jpg</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+	<summary>In 1964, the BBC broadcast one of their most important and ambitious documentary series ever. THE GREAT WAR was intended as the definitive film account of the world-shattering events of 1914-1918. Narrated by Sir Michael Redgrave and featuring the voices of many other leading actors including Sir Ralph Richardson and Marius Goring this truly epic series comprised no less than twenty-six 40-minute episodes. It drew on over one million feet of original film, hundreds of exclusive interviews with veterans and contemporary diaries, letters and reports from the war. Today, it still remains - by far - the finest film account of The Great War ever produced.</summary>
+</dir>
+
+
+<dir>
+	<meta>
+		<year>2004</year>
+		<imdb>tt0400391</imdb>
+	</meta>
+        <name>DUNKIRK</name>
+        <link>http://www.ezzer-mac.com/Addon/text/randomrequest/dunkirk/dunkirklist.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://www.themoviedb.org/t/p/w1280/5sMOjEMsDBiJL0CZqUXTD58kZTN.jpg</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+	<summary>A dramatized documentary about the evacuation of the British Expeditionary Force from Dunkirk in May 1940.</summary>
+</dir>
+
+<dir>
+	<meta>
+		<year>1973</year>
+		<imdb>tt0071075</imdb>
+	</meta>
+        <name>THE WORLD AT WAR</name>
+        <link>http://www.ezzer-mac.com/Addon/text/period/twow/twowlist.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://myself.2ix.ch/img/5eec91bd845ba.jpg</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+	<summary>A groundbreaking 26-part documentary series narrated by the actor Laurence Olivier about the deadliest conflict in history, World War II.</summary>
+</dir>
+
+<dir>
+<title>History Documentaries</title>
+<link>https://thechains24.com/broken%20chains/DOCUMENTARYS/HISTORY%20DOCS.txt</link>
+<thumbnail>https://i.imgur.com/RkGLllb.png</thumbnail>
+<fanart>https://i.imgur.com/0YK4AGZ.jpg</fanart>
+</dir>
+
+<dir>
+<title>War Documentaries</title>
+<link>https://thechains24.com/broken%20chains/DOCUMENTARYS/WAR%20DOCS.txt</link>
+<thumbnail>https://i.imgur.com/RkGLllb.png</thumbnail>
+<fanart>https://i.imgur.com/0YK4AGZ.jpg</fanart>
+</dir>
+
+</xml>

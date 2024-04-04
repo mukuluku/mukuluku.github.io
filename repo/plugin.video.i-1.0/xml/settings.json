@@ -1,0 +1,41 @@
+{
+    "items": [     
+        { 
+            "title": "[COLOR gold]Authorise RD[/COLOR]", 
+            "type": "plugin", 
+            "link": "resolveurl_auth",
+			"summary": "Authorization Popup for RealDebrid"
+        }, 
+		
+		{ 
+            "title": "[COLOR gold]Open ResolveURL Settings[/COLOR]", 
+            "type": "plugin", 
+            "link": "resolveurl_settings",
+			"summary": "Access all ResolveUrl Settings"
+        },
+		{ 
+            "title": "[COLOR gold]Clear ResolveURL Cache[/COLOR]", 
+            "type": "plugin", 
+            "link": "plugin://script.module.resolveurl/?mode=reset_cache",
+			"summary": "Clear ResolveUrl Settings"
+        },
+		{ 
+            "title": "[COLOR gold]Scraper Settings[/COLOR]", 
+            "type": "plugin", 
+            "link": "script.module.microjenscrapers/?mode=microjenscrapersettings",
+			"summary": "Scraper Settings for RD Sections. Turn On/Off Certain Scrapers"
+        },
+       {
+            "type": "item",
+            "title": "[COLOR gold]Clear Addon Cache[/COLOR]",
+            "link": "clear_cache",
+			"summary": "Clear Cache for Menu or Addon Changes"
+        },
+		{
+            "type": "item",
+            "title": "[COLOR gold]Settings[/COLOR]",
+            "link": "settings",
+			"summary": "Extra Addon Settings"
+        }
+    ]
+}

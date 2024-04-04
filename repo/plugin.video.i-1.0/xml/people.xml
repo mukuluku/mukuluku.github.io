@@ -1,0 +1,80 @@
+<xml>
+
+	<item>
+		<title>[COLOR red][B]***ACTORS***[/B][/COLOR]</title>
+		<heading>Mukuluku</heading>
+	</item>
+	
+	<dir>
+		<title>Humphrey Bogart</title>
+		<link>tmdb/person/4110</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4pk2VbOb2td7iBZyir6Ji46HH4N.jpg</thumbnail>
+	</dir>
+	
+	<dir>
+		<title>Laurence Olivier</title>
+		<link>tmdb/person/3359</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kziWbtgEJB0dFZA6kPyzoaYEyQ5.jpg</thumbnail>
+	</dir>
+
+	<dir>
+		<title>Ingrid Bergman</title>
+		<link>tmdb/person/4111</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/jGcdSw3Y8WoVdxsRwVixgMzHxrI.jpg</thumbnail>
+	</dir>
+	
+	<dir>
+		<title>Gregory Peck</title>
+		<link>tmdb/person/8487</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/pugayYkpmD2CXY7D0aweLkDRLaf.jpg</thumbnail>
+	</dir>
+	
+	<dir>
+		<title>Lizabeth Scott</title>
+		<link>tmdb/person/83796</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/un53QFKWs50ckLfvprW5ClLbBBR.jpg</thumbnail>
+	</dir>
+
+	<item>
+		<title>[COLOR red][B]***DIRECTORS***[/B][/COLOR]</title>
+		<heading></heading>
+	</item>
+
+
+	<dir>
+		<title>Tim Burton</title>
+		<link>tmdb/person/510</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/oWZDgLRr4zgRiJEsOAtgntPd5bI.jpg</thumbnail>
+	</dir>
+	
+	<dir>
+		<title>Christopher Nolan</title>
+		<link>tmdb/person/525</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg</thumbnail>
+	</dir>
+	
+	<dir>
+		<title>Quentin Tarantino</title>
+		<link>tmdb/person/138</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg</thumbnail>
+	</dir>
+	
+	<item>
+		<title>[COLOR red][B]***AUTHORS***[/B][/COLOR]</title>
+		<heading></heading>
+	</item>
+	
+	
+	<dir>
+		<title>Erich Maria Remarque</title>
+		<link>tmdb/person/2001</link>
+		<thumbnail>https://www.historyhit.com/app/uploads/2022/11/Erich-Maria-Remarque-Cover-Image.jpg</thumbnail>
+	</dir>
+	
+	<dir>
+		<title>William Shakespeare</title>
+		<link>tmdb/person/6210</link>
+		<thumbnail>https://media.themoviedb.org/t/p/w300_and_h450_bestv2/60ZqefTZIgfGtklgihIjXmi4ClH.jpg</thumbnail>
+	</dir>
+
+</xml>

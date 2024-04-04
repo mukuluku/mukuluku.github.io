@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layouttype>Go Away Nosey</layoutype>
+<!----   DO NOT EDIT ABOVE THIS LINE!!!  BASIC OBFUSCATION METHODS!!!-->
+
+<xml>
+
+
+	<dir>
+		<title>Marin</title>
+		<link>trakt/user/jarvis-12548722/list/26931870</link>
+	</dir>
+	
+	<dir>
+		<title>Ancient Civilizations</title>
+		<link>trakt/user/jarvis-12548722/list/27357731</link>
+	</dir>
+	
+	<plugin>
+		<title>Film Noir</title>
+		<link>plugin://plugin.video.themoviedb.helper/?info=mdblist_userlist&amp;list_id=51900</link>
+	</plugin>
+	
+	<plugin>
+		<title>World War 2 (1935-1970)</title>
+		<link>plugin://plugin.video.themoviedb.helper/?info=mdblist_userlist&amp;list_id=53707</link>
+	</plugin>
+	
+	<plugin>
+		<title>World War 2 (1971-)</title>
+		<link>plugin://plugin.video.themoviedb.helper/?info=mdblist_userlist&amp;list_id=53719</link>
+	</plugin>
+	
+	<dir>
+    <title>Youtube</title>
+    <link>file://Lists/youtube.xml</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>    
+  </dir>
+	
+	
+</xml>

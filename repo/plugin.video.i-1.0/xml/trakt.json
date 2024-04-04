@@ -132,22 +132,7 @@
             "title": "Personal Watchlist",
             "type": "dir",
             "link": "trakt/user/self/watchlist"
-        },
-        {
-            "title": "Personal Movies Watchlist",
-            "type": "dir",
-            "link": "trakt/user/self/watchlist/movies"
-        },
-        {
-            "title": "Personal Shows Watchlist",
-            "type": "dir",
-            "link": "trakt/user/self/watchlist/shows"
-        },
-
-        {
-            "title": "List Slug Test",
-            "type": "dir",
-            "link": "trakt/user/justin/list/imdb-top-rated-movies"
         }
+
     ]
 }

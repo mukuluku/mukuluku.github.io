@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layouttype>Go Away Nosey</layoutype>
+<!----   DO NOT EDIT ABOVE THIS LINE!!!  BASIC OBFUSCATION METHODS!!!-->
+
+<xml>
+
+	<dir>
+		<title>Search Series</title>
+		<link>tmdb/search/tv</link>
+	</dir>
+
+<dir>
+	<meta>
+		<year>1962</year>
+		<imdb>tt0055675</imdb>
+	</meta>
+        <name>THE GALLANT MEN</name>
+        <link>http://www.ezzer-mac.com/Addon/text/randomrequest/tgm/tgmlist.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://www.themoviedb.org/t/p/w1280/a9WTIIvQOKRVXpsptBTgSSygWDB.jpg</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+	<summary>The 36th infantry is fighting its way through Italy under the spirited leadership of Captain Jim Benedict. His men include flirt D'Angelo, who carries his guitar along, plus pals Lucavich and Hanson. McKenna is the free wheeling Sergeant.</summary>
+</dir>
+
+<dir>
+	<meta>
+		<year>1968</year>
+		<imdb>tt0064750</imdb>
+	</meta>
+        <name>ODISSEA</name>
+        <link>file://Series/odissea.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sXvc5x6Xw1nHNdrmU4K1MlFxfss.jpg</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart>https://image.tmdb.org/t/p/original/3ewjxRCEABWI56TsUP3Zl2uohfB.jpg</fanart>
+	<summary>Andrea Bischa me varken e tij niset nga brigjet e Sarandes drejt plazhit te pllakave. Odysseus' journey told in Homer's Iliad and Odyssey. After fighting in the Trojan War, Odysseus spends years trying to return home to Itaka.</summary>
+</dir>
+
+<dir>
+	<meta>
+	<imdb>tt0086659</imdb>
+	<year>1984</year>
+	</meta>
+      <title>[B][COLORwhite]ALLO ALLO[/COLOR][/B]</title>
+      <link>http://www.ezzer-mac.com/Addon/text/sitcoms/allo/allolist.xml</link>
+      <thumbnail>https://www.themoviedb.org/t/p/w1280/m42lb4UxkpaFil4bw0bqqjlWCY4.jpg</thumbnail>
+	<summary>The misadventures of hapless cafe owner René Artois and his escapades with the Resistance in occupied France.</summary>
+</dir>
+
+<dir>
+<title>Mind Your Language</title>
+<link>https://thechains24.com/broken%20chains/RETROWAVE/MIND%20YOUR/MAIN%20DIR.txt</link>
+<meta>
+<imdb>tt0075537</imdb>
+<content>TV Series</content>
+</meta>
+<summary>A diverse group of immigrants and foreigners learn English at an adult education school in London.</summary>
+<thumbnail>https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Ai7AJn5VwEWsXaQfl4Kg3Qo14Yq.jpg</thumbnail>
+<fanart>https://www.themoviedb.org/t/p/w533_and_h300_bestv2/dO4lLOgNzlGylCOuZ0moy5xpQtX.jpg</fanart>
+</dir>
+
+<dir>
+	<meta>
+	<imdb>tt0081912</imdb>
+	<year>1981</year>
+	</meta>
+      <title>[B][COLORwhite]ONLY FOOLS AND HORSES[/COLOR][/B]</title>
+      <link>http://www.ezzer-mac.com/Addon/text/sitcoms/ofah/ofahlist.xml</link>
+      <thumbnail>https://www.themoviedb.org/t/p/w1280/8QznQBwr4aqPIQTiymL7obM3qOK.jpg</thumbnail>
+	<summary>The misadventures of two wheeler dealer brothers Del Boy and Rodney Trotter of 'Trotters Independent Traders PLC' who scrape their living by selling dodgy goods believing that next year they will be millionaires.</summary>
+</dir>
+
+<dir>
+	<meta>
+	<imdb>tt0063895</imdb>
+	<year>1969</year>
+	</meta>
+      <title>[B][COLORwhite]DOCTOR IN THE HOUSE[/COLOR][/B]</title>
+      <link>http://www.ezzer-mac.com/Addon/text/sitcoms/dith/dithlist.xml</link>
+      <thumbnail>https://www.lookimg.com/images/2019/01/07/mrL5H.jpg</thumbnail>
+	<summary>The misadventures of a group of medical students.</summary>
+</dir>
+
+<dir>
+	<meta>
+	<imdb>tt0066648</imdb>
+	<year>1971</year>
+	</meta>
+      <title>[B][COLORwhite]DOCTOR AT LARGE[/COLOR][/B]</title>
+      <link>http://www.ezzer-mac.com/Addon/text/sitcoms/dal/dallist.xml</link>
+      <thumbnail>https://www.themoviedb.org/t/p/w1280/fsGFLXLPNQizWj2OddxjCf3UOBi.jpg</thumbnail>
+	<summary>Doctor at Large is a British television comedy series based on a set of books by Richard Gordon about the misadventures of a group of newly qualified doctors. The series follows directly from its predecessor Doctor in the House, and was produced by London Weekend Television in 1971.</summary>
+</dir>
+
+<dir>
+<title>Goodnight Sweetheart</title>
+<link>https://thechains24.com/broken%20chains/RETROWAVE/GOODNIGHT%20SWEETHEART/MAIN%20DIR.txt</link>
+<meta>
+<imdb>tt0106014</imdb>
+<content>TV Series</content>
+</meta>
+<summary>British sitcom in which an unhappily married man discovers he can time travel back to 1940s war-torn London where he masquerades as an MI5 agent and part-time songwriter whilst courting the local barmaid.</summary>
+<thumbnail>https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nlLmV3m2cuWyB187cqXEJzF1N2K.jpg</thumbnail>
+<fanart>https://media.themoviedb.org/t/p/w533_and_h300_bestv2/pCoOFcXcwf1BsI2nJ82gx16b2MW.jpg</fanart>
+</dir>
+
+</xml>

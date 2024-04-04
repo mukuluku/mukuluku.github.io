@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layouttype>Go Away Nosey</layoutype>
+<!----   DO NOT EDIT ABOVE THIS LINE!!!  BASIC OBFUSCATION METHODS!!!-->
+
+<xml>
+
+
+<plugin>
+<title>YouTube Search</title>
+<link>Plugin://plugin.video.youtube/kodion/search/input/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary></summary>
+</plugin>
+
+<item>
+<title>Death Drums Along The River</title>
+<link>https://www.youtube.com/watch?v=Pj7VAjEBJpg</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary></summary>
+</item>
+
+<plugin>
+<title>BluRay Classic Studio</title>
+<link>Plugin://plugin.video.youtube/channel/UCqdyL3fWlmRGH6SELyGmtKQ/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary></summary>
+</plugin>
+
+<plugin>
+<title>American and British Classic Movies</title>
+<link>Plugin://plugin.video.youtube/playlist/PLKwL9mXAZxG1q2mOZPup9x8UiOpz3iWLb/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary></summary>
+</plugin>
+	
+</xml>
