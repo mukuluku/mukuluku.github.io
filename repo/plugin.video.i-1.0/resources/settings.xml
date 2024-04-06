@@ -14,6 +14,8 @@
 
         <setting id="open.Osettings" subsetting="false" type="action" label="[COLOR deepskyblue]Open MicroJen Scrapers Settings[/COLOR]" option="close" action="RunPlugin(plugin://script.module.microjenscrapers/?mode=microjenscrapersettings)" />
 
+        <setting id="open.Osettings" subsetting="false" type="action" label="[COLOR deepskyblue]TMDB Settings[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.themoviedb.helper/?info=dir_settings)" />
+
         <!-- <setting id="debrid.only" type="bool" label="Debrid Sources Only" default="true" /> -->
 
     </category>
@@ -26,23 +28,23 @@
 
         <setting id="item_meta" type="bool" label="[COLOR khaki]    Fetch Metadata For Manually Made Lists [I][COLOR white](Slow Loading)[/I][/COLOR]" subsetting="true" visible="eq(-1,true)" default="false" />
 
-        <setting id="tmdb.api_key" type="text" label="API Key" option="hidden" visible="false" default="49a989f2a172c35120c4b28fdea1265f"/>
+        <setting id="tmdb.api_key" type="text" label="API Key" option="hidden" visible="true" default="49a989f2a172c35120c4b28fdea1265f"/>
 
-        <setting id="tmdb.access_token" type="text" label="Access Token" option="hidden" visible="false" default="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0OWE5ODlmMmExNzJjMzUxMjBjNGIyOGZkZWExMjY1ZiIsInN1YiI6IjY1ZTdlMzY5ZTMyOTQzMDE2MzljMWI5MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dVbXBLpqaOFke2lDjz2ZiqqIQMs4TLHWSWNgKjTkC9g" />
+		<setting id="tmdb.access_token" type="text" label="Access Token" option="hidden" visible="true" default="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0OWE5ODlmMmExNzJjMzUxMjBjNGIyOGZkZWExMjY1ZiIsInN1YiI6IjY1ZTdlMzY5ZTMyOTQzMDE2MzljMWI5MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dVbXBLpqaOFke2lDjz2ZiqqIQMs4TLHWSWNgKjTkC9g" />
 
     </category>
 
     <category label="Trakt">
 
-        <setting id="trakt.client_id" type="text" label="Client ID" visible="false" default="886727e48cd4df00b5f488dcaf4da96c9cd44bebdce2f17e5a38328491f109af"/>
+       <setting id="trakt.client_id" type="text" label="Client ID" visible="true" default="886727e48cd4df00b5f488dcaf4da96c9cd44bebdce2f17e5a38328491f109af"/>
 
-        <setting id="trakt.client_secret" type="text" label="Client Secret" visible="false" default="16ef0927a39597a853c8534041b92095578a4a381589265ffaf9524de548f6ee"/>
+       <setting id="trakt.client_secret" type="text" label="Client Secret" visible="true" default="16ef0927a39597a853c8534041b92095578a4a381589265ffaf9524de548f6ee"/>
 
         <setting id="trakt.access_token" type="text" label="Access Token" visible="false" default=""/>
 
         <setting id="trakt.refresh_token" type="text" label="Refresh Token" visible="false" default=""/>
 
-        <setting id="trakt.user_id" type="text" label="User ID" visible="false" default=""/>
+        <setting id="trakt.user_id" type="text" label="User ID" visible="true" default=""/>
 
         <setting id="trakt.authorize" type="action" label="Authorize" svisible="true" option="close" action="PlayMedia(plugin://$ID/trakt/authorize)"/>
 
@@ -52,15 +54,17 @@
 
     
 
-    <!-- initial settings  -->
+    <!-- initial settings
 
     <category label="Home Page">
 
         <setting id="root_xml" type="text" label="Root XML Location" default="file://main.xml" visible="false"/>
 
         <setting id="message_xml_url" type="text" label="News File Location" default="file://news.xml" visible="false"/>
+		
 
-    </category>
+    </category>		  -->
+	
 
     
 

@@ -407,11 +407,17 @@ class TMDB(Plugin):
                         api_url = f"discover/tv?with_companies={list_id}"
                     else:
                         api_url = f"discover/movie?with_companies={list_id}"
+  #My edit
                 elif kind == "year":
                     if "show" in splitted[2] or "tv" in splitted[2]:
-                        api_url = f"discover/tv?year={list_id}"
+                        api_url = f"discover/tv?primary_release_year={list_id}"
                     else:
-                        api_url = f"discover/movie?year={list_id}"
+                        api_url = f"discover/movie?primary_release_year={list_id}"
+  #             elif kind == "language":
+  #                  if "show" in splitted[2] or "tv" in splitted[2]:
+  #                       api_url = f"discover/tv?with_origin_country&with_original_language={list_id}"
+  #                  else:
+  #                      api_url = f"discover/movie?with_origin_country&with_original_language={list_id}"
                 
                 else:
                     api_url = url.replace("tmdb/", "")
