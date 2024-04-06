@@ -36,7 +36,7 @@ class MicroJenScrapers(Plugin):
         "earn4files.com",
         "filefactory.com",
         "hexupload.net",
-        "mediafire.com".
+        "mediafire.com",
         "mega.io",
         "mega.nz",
         "multiup.org",
