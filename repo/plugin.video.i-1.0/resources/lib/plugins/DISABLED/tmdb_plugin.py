@@ -51,17 +51,12 @@ class TMDB_API:
                     _id = splitted[3]
                     if kind == "genre":
                         path = f"discover/{media_type}?with_genres={_id}"
-                    if kind == "company":
-                        path = f"discover/{media_type}?with_companies={_id}"
-                    if kind == "network":
+                    elif kind == "network":
                         path = f"discover/{media_type}?with_networks={_id}"
-                    if kind == "language":
-                        path = f"discover/{media_type}?with_original_language={_id}"
-                    if kind == "year":
-                        if media_type == 'show' or media_type == 'tv':
-                            path = f"discover/{media_type}?first_air_date_year={_id}"
-                        else:
-                            path = f"discover/{media_type}?primary_release_year={_id}"
+                    elif kind == "company":
+                        path = f"discover/{media_type}?with_companies={_id}"
+                    elif kind == "year":
+                        path = f"discover/{media_type}?year={_id}"
                            
             elif path.startswith("search") and len(splitted) == 4:
                 page = int(pagenum)
@@ -90,8 +85,14 @@ class TMDB_API:
                 results.extend(response.get("crew", []))
         else:
             results = response.get("results", response.get("parts", response))
-        if response.get("total_pages", 1) > page:
-            results.append({"type": "dir", "title": "Next Page", "link": f"tmdb/{path.replace('?with_genres=', '/genre/').replace('?with_networks=', '/network/').replace('?with_companies=', '/company/').replace('?with_original_language=', '/language/').replace('?year=', '/year/').replace('?first_air_date_year=', '/year/').replace('?primary_release_year=', '/year/').replace('?query=', '/')}/{page + 1}"})
+        
+        total_pages = response.get("total_pages", 1)
+        if total_pages > page:
+            if page_count < PAGES:
+                results.extend(self.get(f"{path.replace('?with_genres=', '/genre/').replace('?with_networks=', '/network/').replace('?with_companies=', '/company/').replace('?year=', '/year/').replace('?query=', '/')}/{page + 1}", paginated=paginated, full_meta=full_meta,page_count=page_count +1))
+            elif page_count == PAGES:
+                results.append({"type": "dir", "title": "Next Page", "link": f"tmdb/{path.replace('?with_genres=', '/genre/').replace('?with_networks=', '/network/').replace('?with_companies=', '/company/').replace('?year=', '/year/').replace('?query=', '/')}/{page + 1}"})
+            
         return results
 
     def handle_items(self, items,show_id=None):
@@ -409,14 +410,14 @@ class TMDB(Plugin):
   #My edit
                 elif kind == "year":
                     if "show" in splitted[2] or "tv" in splitted[2]:
-                        api_url = f"discover/tv?first_air_date_year={list_id}"
+                        api_url = f"discover/tv?primary_release_year={list_id}"
                     else:
                         api_url = f"discover/movie?primary_release_year={list_id}"
-                elif kind == "language":
-                     if "show" in splitted[2] or "tv" in splitted[2]:
-                          api_url = f"discover/tv?with_original_language={list_id}"
-                     else:
-                         api_url = f"discover/movie?with_original_language={list_id}"
+  #             elif kind == "language":
+  #                  if "show" in splitted[2] or "tv" in splitted[2]:
+  #                       api_url = f"discover/tv?with_origin_country&with_original_language={list_id}"
+  #                  else:
+  #                      api_url = f"discover/movie?with_origin_country&with_original_language={list_id}"
                 
                 else:
                     api_url = url.replace("tmdb/", "")
