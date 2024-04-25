@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.i" name="I" provider-name="I" version="1.0">
+<addons><addon id="plugin.video.i" name="[B][COLOR firebrick]i[/COLOR][/B]" version="1.0" provider-name="iMukuluku">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -10,12 +10,12 @@
     <import addon="script.module.microjenscrapers" />
     
   </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
+  <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">I Mukuluku</summary>
-	<description lang="en">I Mukuluku Addon</description>
+    <summary lang="en_GB">i Mukuluku</summary>
+	<description lang="en">i Mukuluku Addon</description>
     <disclaimer lang="en">Mukuluku sukuti e ka babi pantagji</disclaimer>
     <platform>all</platform>
     <language>en</language>
@@ -25,8 +25,8 @@
 		<fanart>fanart.jpg</fanart>
   </assets>
   </extension>
-</addon><addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" provider-name="EzzerMac" version="1.1.7">
-        <extension name="EzzerMacs Wizard Repository" point="xbmc.addon.repository">
+</addon><addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" version="1.1.7" provider-name="EzzerMac">
+        <extension point="xbmc.addon.repository" name="EzzerMacs Wizard Repository">
 		<dir>
             <info compressed="false">http://www.ezzer-mac.com/_repo/addons.xml</info>
             <checksum>http://www.ezzer-mac.com/_repo/addons.xml.md5</checksum>
@@ -80,8 +80,8 @@
 		<fanart>fanart.jpg</fanart>
 		</assets>
     </extension>
-</addon><addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" provider-name="Fido" version="1.5e">
-        <extension name="[COLOR aqua]Fido Repository[/COLOR]" point="xbmc.addon.repository">
+</addon><addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5e" provider-name="Fido">
+        <extension point="xbmc.addon.repository" name="[COLOR aqua]Fido Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">http://fantazyrepo.uk/_repo/addons.xml</info>
                 <checksum>http://fantazyrepo.uk/_repo/addons.xml.md5</checksum>
@@ -123,19 +123,19 @@
             <fanart>fanart.jpg</fanart>    
             </assets>
         </extension>
-    </addon><addon id="repository.addons4kodi" name="Addons4Kodi Repository" provider-name="A4K" version="2.1">
-	<extension name="Addons4Kodi Repository" point="xbmc.addon.repository">
+    </addon><addon id="repository.addons4kodi" name="Addons4Kodi Repository" version="2.1" provider-name="A4K">
+	<extension point="xbmc.addon.repository" name="Addons4Kodi Repository">
         <dir minversion="18.0">
             <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/</datadir>
         </dir>
-        <dir maxversion="18.9.9" minversion="18.0">
+        <dir minversion="18.0" maxversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
         </dir>
-        <dir maxversion="18.9.9" minversion="18.0">
+        <dir minversion="18.0" maxversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/</datadir>
@@ -164,8 +164,8 @@
 		<disclaimer />
 		<platform>all</platform>
 	</extension>
-</addon><addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" provider-name="Aliunde" version="1.4.6">
-        <extension name="[COLOR aqua]Aliunde Repository[/COLOR]" point="xbmc.addon.repository">
+</addon><addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.4.6" provider-name="Aliunde">
+        <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
                 <checksum>https://fuse99.com/_aliunde/addons.xml.md5</checksum>
@@ -196,7 +196,7 @@
             </assets>
         </extension>
     </addon><addon id="repository.chainsrepo" name="Chains Repository" provider-name="Chains" version="0.0.15">
-	<extension name="Chains Repo" point="xbmc.addon.repository">
+	<extension point="xbmc.addon.repository" name="Chains Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml.md5</checksum>
@@ -232,8 +232,8 @@
 			<screenshot />
 		</assets>
 	</extension>
-</addon><addon id="repository.cocoscrapers" name="CocoScrapers Repository" provider-name="CocoScrapers" version="1.0.0">
-    <extension name="CocoScrapers Repository" point="xbmc.addon.repository">
+</addon><addon id="repository.cocoscrapers" name="CocoScrapers Repository" version="1.0.0" provider-name="CocoScrapers">
+    <extension point="xbmc.addon.repository" name="CocoScrapers Repository">
         <dir minversion="19.0">
             <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
@@ -245,8 +245,8 @@
         <summary>CocoScrapers Repository</summary>
         <description>Unofficial add-ons repository</description>
     </extension>
-</addon><addon id="repository.ivarbrandt" name="ivarbrandt's Repository" provider-name="Ivar Brandt" version="1.0.1">
-    <extension name="ivarbrandt's Repository" point="xbmc.addon.repository">
+</addon><addon id="repository.ivarbrandt" name="ivarbrandt's Repository" version="1.0.1" provider-name="Ivar Brandt">
+    <extension point="xbmc.addon.repository" name="ivarbrandt's Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
@@ -263,24 +263,24 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" provider-name="jurialmunkey" version="3.4">
-    <extension name="jurialmunkey Alpha Repository" point="xbmc.addon.repository">
+</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.4" provider-name="jurialmunkey">
+    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
         </dir>
-		<dir maxversion="18.9.0" minversion="18.0">
+		<dir minversion="18.0" maxversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
         </dir>
-        <dir maxversion="19.9.0" minversion="18.9.0">
+        <dir minversion="18.9.0" maxversion="19.9.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
         </dir>
-        <dir maxversion="20.9.0" minversion="19.9.1">
+        <dir minversion="19.9.1" maxversion="20.9.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
@@ -300,8 +300,8 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="repository.mukuluku" name="mukuluku" provider-name="Ian_mukuluku" version="1.0">
-    <extension name="Mukuluku Repository" point="xbmc.addon.repository">
+</addon><addon id="repository.mukuluku" name="[B][COLOR firebrick]mukuluku[/COLOR][/B]" version="1.0" provider-name="iMUKULUKU">
+    <extension point="xbmc.addon.repository" name="Mukuluku Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/mukuluku/mukuluku.github.io/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/mukuluku/mukuluku.github.io/master/repo/zips/addons.xml.md5</checksum>
@@ -354,7 +354,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
 	</extension>
-</addon><addon id="script.module.microjenscrapers" name="MicroJen Scraper Module" provider-name="MicroJen Community" version="1.5">
+</addon><addon id="script.module.microjenscrapers" name="MicroJen Scraper Module" version="1.5" provider-name="MicroJen Community">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.beautifulsoup4" />
@@ -363,8 +363,8 @@
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
     </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension library="lib/default.py" point="xbmc.python.pluginsource">
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
         <provides>executable</provides>
     </extension>
         <extension point="xbmc.addon.metadata">

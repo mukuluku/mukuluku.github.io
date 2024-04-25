@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.i" name="I" version="1.0" provider-name="I">
+<addon id="plugin.video.i" name="[B][COLOR firebrick]i[/COLOR][/B]" version="1.0" provider-name="iMukuluku">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -14,8 +14,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">I Mukuluku</summary>
-	<description lang="en">I Mukuluku Addon</description>
+    <summary lang="en_GB">i Mukuluku</summary>
+	<description lang="en">i Mukuluku Addon</description>
     <disclaimer lang="en">Mukuluku sukuti e ka babi pantagji</disclaimer>
     <platform>all</platform>
     <language>en</language>
